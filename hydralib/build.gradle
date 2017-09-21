@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'me.vigi.fat-aar'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.timoshenkoav'
+
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
@@ -20,8 +24,9 @@ android {
     }
 }
 
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':hydra')
-
+        compile project(':hydra')
+//    compile(name: 'hydrarrr', ext: 'aar')
 }
