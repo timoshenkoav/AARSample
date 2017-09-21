@@ -27,6 +27,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    provided project(':hydra')
+    provided project(path: ':hydra', configuration: 'debug')
 //    compile(name: 'hydrarrr', ext: 'aar')
 }
