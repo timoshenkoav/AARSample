@@ -16,11 +16,6 @@ android {
 dependencies{
 
 }
-logger.log(LogLevel.ERROR,configurations.toString())
-configurations.each { conf ->
-    logger.log(LogLevel.ERROR,conf.getName())
-    artifacts.add(conf.getName(), file('hydra-raw.aar'))
-}
 
 //configurations.maybeCreate("default")
 task copyJarToBin << {
