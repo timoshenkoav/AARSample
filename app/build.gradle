@@ -29,5 +29,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile project(':hydralib')
-//    compile 'com.github.timoshenkoav:hydralib:58df30a003'
+//    compile 'com.github.timoshenkoav:AARSample:e455ae7c86'
 }

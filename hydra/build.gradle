@@ -1,5 +1,15 @@
 apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.android.library'
 
 group='com.github.timoshenkoav'
-configurations.maybeCreate("default")
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+
+        minSdkVersion 19
+        targetSdkVersion 26
+    }
+}
+//configurations.maybeCreate("default")
 artifacts.add("default", file('hydra.aar'))
