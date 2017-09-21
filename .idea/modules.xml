@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hydra/hydra.iml" filepath="$PROJECT_DIR$/hydra/hydra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hydralib/hydralib.iml" filepath="$PROJECT_DIR$/hydralib/hydralib.iml" />
       <module fileurl="file://$PROJECT_DIR$/library.iml" filepath="$PROJECT_DIR$/library.iml" />
     </modules>
   </component>

@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/hydra" />
+            <option value="$PROJECT_DIR$/hydralib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
