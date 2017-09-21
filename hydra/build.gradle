@@ -16,7 +16,7 @@ android {
 dependencies{
 
 }
-
+artifacts.add("default", file('hydra-raw.aar'))
 //configurations.maybeCreate("default")
 task copyJarToBin << {
     copy {
